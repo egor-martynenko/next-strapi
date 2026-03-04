@@ -1,0 +1,68 @@
+.background {
+    min-height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.background::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.95), rgba(0,0,0,0.75));
+    z-index: 1;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    padding: 0 20px;
+    position: relative;
+    z-index: 2;
+}
+.hero_data{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 60px;
+}
+.hero_texts{
+    border-left: 4px solid white;
+    padding-left: 24px;
+}
+.hero_text{
+    text-transform: uppercase;
+    font-size: 72px;
+}
+
+.hero_description {
+    text-transform: uppercase;
+    font-size: 32px;
+    padding-top: 12px;
+}
+.advantages{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 30px;
+    font-size: 21px;
+
+}

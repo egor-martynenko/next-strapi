@@ -1,5 +1,6 @@
 import styles from "./page.module.css";
 import qs from "qs";
+import {Hero} from "@/blocks/Hero/Hero";
 
 const homePageQuery = qs.stringify({
   populate: {
@@ -42,23 +43,7 @@ export default async function Home() {
   return (
     <div className={styles.page}>
       <main className={styles.main}>
-        <div
-          className={styles.background}
-          style={{
-            backgroundImage: `url(${backgroundImageUrl})`,
-            backgroundSize: 'cover',
-            backgroundPosition: 'center',
-            backgroundRepeat: 'no-repeat',
-          }}>
-
-          <div
-            className={styles.hero}
-            >
-            <h1>{HeroText}</h1>
-            <p>{HeroDescription}</p>
-          </div>
-        </div>
-
+        <Hero backgroundImageUrl={backgroundImageUrl} HeroText={HeroText} HeroDescription={HeroDescription}/>
       </main>
     </div>
   );
