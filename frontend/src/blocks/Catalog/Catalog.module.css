@@ -1,0 +1,85 @@
+.wrapper{
+    width: 100%;
+    padding: 80px 20px;
+    background-color: white;
+}
+
+.table {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+    padding-top: 20px;
+}
+.catalog_card{
+    position: relative;
+    padding: 20px;
+    border: 1px solid #4783AB;
+    box-shadow: 1px 1px 10px #4783AB;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: white;
+}
+.image{
+    position: relative;
+    width: 100%;
+    margin-right: auto;
+    min-height: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+   margin-top: 4px;
+}
+.card_title{
+    text-transform: uppercase;
+    font-size: 21px;
+}
+.quantity{
+    color: #4783AB;
+}
+.form {
+    grid-column: span 2 / span 2;
+    background-color: #F4F9FC;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.form_head{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    gap: 20px
+}
+.head_title{
+    font-size: 24px;
+    color: #002C52;
+    text-align: left;
+}
+.sale{
+    font-size: 72px;
+    color: #BC0006;
+}
+.form_inputs{
+    max-width: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.form_bottom{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.agreement{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 12px;
+}

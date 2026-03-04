@@ -1,6 +1,8 @@
 import styles from "./page.module.css";
 import qs from "qs";
 import {Hero} from "@/blocks/Hero/Hero";
+import {Catalog} from "@/blocks/Catalog/Catalog";
+import {Services} from "@/blocks/Services/Services";
 
 const homePageQuery = qs.stringify({
   populate: {
@@ -44,6 +46,8 @@ export default async function Home() {
     <div className={styles.page}>
       <main className={styles.main}>
         <Hero backgroundImageUrl={backgroundImageUrl} HeroText={HeroText} HeroDescription={HeroDescription}/>
+        <Catalog/>
+        <Services/>
       </main>
     </div>
   );

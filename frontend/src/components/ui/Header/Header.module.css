@@ -9,7 +9,7 @@
     align-items: flex-start;
     justify-content: space-between;
     padding: 10px 20px 5px 20px;
-
+    background: black;
 }
 .contacts{
     color: white;
