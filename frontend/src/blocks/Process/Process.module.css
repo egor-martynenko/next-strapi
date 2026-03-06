@@ -1,0 +1,63 @@
+.wrapper {
+    width: 100%;
+    padding: 80px 20px;
+    background-color: white;
+}
+
+.list {
+    margin: 20px 0;
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    position: relative;
+    z-index: 1;
+    color: black;
+}
+.circle[data-fill="1"] {
+    background: conic-gradient(#BC0006 0deg 72deg, #e0e0e0 72deg 360deg);
+}
+.circle[data-fill="2"] {
+    background: conic-gradient(#BC0006 0deg 144deg, #e0e0e0 144deg 360deg);
+}
+.circle[data-fill="3"] {
+    background: conic-gradient(#BC0006 0deg 216deg, #e0e0e0 216deg 360deg);
+}
+.circle[data-fill="4"] {
+    background: conic-gradient(#BC0006 0deg 288deg, #e0e0e0 288deg 360deg);
+}
+.circle[data-fill="5"] {
+    background: conic-gradient(#BC0006 0deg 360deg, #e0e0e0 0deg);
+}
+.circle::before {
+    content: '';
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    background: white;
+    z-index: -1;
+}
+.card h3{
+    height: 54px;
+    color: #002C52;
+}
+.card p{
+    flex: 1;
+    color: #002C52;
+}

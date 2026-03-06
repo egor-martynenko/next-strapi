@@ -1,0 +1,26 @@
+.wrapper {
+    width: 100%;
+    padding: 40px 20px;
+    background-color: #D2F0FD;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #002C52;
+}
+.navigation_list, .navigation_contacts{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    font-weight: 600;
+}
+.middle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}

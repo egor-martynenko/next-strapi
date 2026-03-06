@@ -6,7 +6,7 @@ export const Header = () => {
   return (
     <div className={styles.header}>
       <div className={styles.header_top}>
-        <Logo/>
+        <Logo color={"white"} />
         <ul className={styles.contacts}>
           <li>Москва</li>
           <li>info@aissteel.ru</li>

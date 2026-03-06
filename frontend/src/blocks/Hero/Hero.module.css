@@ -63,6 +63,9 @@
     justify-content: space-between;
     width: 100%;
     padding: 30px;
-    font-size: 21px;
-
+    font-size: 16px;
+}
+.advantages_item{
+    border-left: 2px solid #BC0006 ;
+    padding-left: 10px;
 }

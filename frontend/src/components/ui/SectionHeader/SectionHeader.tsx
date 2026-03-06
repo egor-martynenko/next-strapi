@@ -4,8 +4,8 @@ import Link from "next/link";
 
 type SectionHeaderProps = {
   title: string;
-  linkText: string;
-  link: string;
+  linkText?: string;
+  link?: string;
 }
 
 export const SectionHeader:FC<SectionHeaderProps> = ({title, linkText, link}) => {
@@ -13,9 +13,11 @@ export const SectionHeader:FC<SectionHeaderProps> = ({title, linkText, link}) =>
     <div className={styles.wrapper}>
       <span className={styles.title}>{title}</span>
 
+      { link &&
       <Link href={link}>
         <span className={styles.link}>{linkText}</span>
       </Link>
+      }
     </div>
   );
 };

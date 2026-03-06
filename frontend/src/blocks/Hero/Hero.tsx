@@ -34,9 +34,9 @@ export const Hero:FC<HeroBlockProps> = ({backgroundImageUrl, HeroText, HeroDescr
         </div>
 
         <div className={styles.advantages}>
-          <div>Более 1500 товаров на сайте</div>
-          <div>Гарантия качества, подтверждённая сертификатами</div>
-          <div>Доставка любым видом транспорта по России и СНГ</div>
+          <div className={styles.advantages_item}>Более 1500 товаров на сайте</div>
+          <div className={styles.advantages_item}>Гарантия качества, подтверждённая сертификатами</div>
+          <div className={styles.advantages_item}>Доставка любым видом транспорта по России и СНГ</div>
         </div>
 
       </div>
