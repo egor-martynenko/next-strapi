@@ -1,7 +1,7 @@
 import styles from './page.module.css';
 import qs from 'qs';
 import { Hero } from '@/blocks/Hero/Hero';
-import { Catalog } from '@/blocks/Catalog/Catalog';
+import { ShortCatalog } from '@/blocks/ShortCatalog/ShortCatalog';
 import { Services } from '@/blocks/Services/Services';
 import { Process } from '@/blocks/Process/Process';
 
@@ -53,9 +53,9 @@ export default async function Home() {
           HeroText={HeroText}
           HeroDescription={HeroDescription}
         />
-        <Catalog />
+        <ShortCatalog />
         <Services />
-        <Process />
+        <Process/>
       </main>
     </div>
   );

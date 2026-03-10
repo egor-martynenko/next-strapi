@@ -18,9 +18,16 @@
     gap: 20px;
     font-weight: 600;
 }
+.navigation_contacts{
+    font-weight: 200;
+}
 .middle{
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 20px 0;
+}
+.sec_text{
+    margin-top: 12px;
+    font-size: 12px;
 }

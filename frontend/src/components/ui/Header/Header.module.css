@@ -34,7 +34,7 @@
     justify-content: flex-start;
 }
 .header_btns li{
-    padding: 10px;
+    padding: 10px 10px 5px 10px;
     cursor: pointer;
     font-size: 18px;
     font-weight: 600;
@@ -46,4 +46,7 @@
 .cta:hover{
     border-bottom: 1px solid #BC0006;
     cursor: pointer;
+}
+.active{
+    border-bottom: 2px solid #BC0006;
 }

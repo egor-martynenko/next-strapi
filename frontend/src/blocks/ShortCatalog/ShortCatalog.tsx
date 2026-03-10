@@ -1,4 +1,4 @@
-import styles from './Catalog.module.css'
+import styles from './ShortCatalog.module.css'
 import {SectionHeader} from "@/components/ui/SectionHeader/SectionHeader";
 import Image from "next/image";
 import {Input} from "@/components/elements/Input/Input";
@@ -50,7 +50,7 @@ const data = [
   },
 ]
 
-export const Catalog = () => {
+export const ShortCatalog = () => {
   return (
     <div className={styles.wrapper}>
       <SectionHeader title={'каталог'} linkText={'Весь каталог'} link={''}/>
