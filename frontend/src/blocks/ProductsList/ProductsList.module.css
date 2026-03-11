@@ -1,0 +1,33 @@
+.wrapper{
+    padding: 20px;
+}
+.title{
+    font-size: 32px;
+    font-weight: 400;
+}
+.list{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+}
+.card{
+    padding: 20px 20px 40px 20px;
+    border-left: 2px solid black;
+    cursor: pointer;
+}
+.card:hover{
+    padding: 20px 20px 40px 20px;
+    border-left: 2px solid #BC0006;
+}
+.card_title{
+    font-size: 20px;
+}
+.image{
+    position: relative;
+    width: 120px;
+    height: 80px;
+    margin-left: auto;
+
+}

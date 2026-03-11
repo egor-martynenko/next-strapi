@@ -18,6 +18,7 @@ export const Footer = () => {
           <li>
             <a href={'tel:+78007007340'}>8 (800) 700-73-40</a>
           </li>
+          <li>Пн-Пт с 08:30 до 17:30 (МСК)</li>
         </ul>
       </div>
       <div className={styles.middle}>
