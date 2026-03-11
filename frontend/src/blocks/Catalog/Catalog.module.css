@@ -1,0 +1,45 @@
+.wrapper{
+    padding: 20px;
+}
+.catalog_block:not(:first-child){
+    margin-top: 32px;
+}
+.block_title{
+    font-size: 32px;
+    font-weight: bold;
+}
+.block_list{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    gap: 20px;
+    list-style: none;
+}
+.items_list{
+    list-style: none;
+    margin-top: 12px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 6px;
+}
+.items_list li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.group_wrapper{
+    background: rgba(182, 182, 182, 0.15);
+    padding: 30px 0 0 30px;
+    overflow: hidden;
+}
+.group_title{
+    font-size: 26px;
+}
+.group_image{
+    position: relative;
+    height: 210px;
+    width: 210px;
+    margin-left: auto;
+}
